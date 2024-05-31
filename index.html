@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>calculadora de Notas</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>Calculadora de Notas</h1>
+    <form id="notasForm">
+        <label for="numEstudantes">Número de estudantes:</label>
+        <input type="number" id="numEstudantes" name="numEstudantes" min="1" required><br><br>
+        <div id="notasInputs"></div>
+        <input type="submit" value="Calcular Estatísticas">
+    </form>
+
+    <div id="resultado"></div>
+<script src="script.js"></script>
+</body>
+</html>
